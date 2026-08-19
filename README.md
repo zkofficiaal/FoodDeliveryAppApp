@@ -1,6 +1,6 @@
 <img width="491" height="842" alt="Screenshot 2026-08-19 at 5 59 59 AM" src="https://github.com/user-attachments/assets/cb8efe32-e69c-4966-afa3-7066c0697b9e" />
-<img width="491" height="842" alt="Screenshot 2026-08-19 at 6 01 01 AM" src="https://github.com/user-attachments/assets/7cf76f0f-54cc-465d-b676-75f0837eeebd" />
 <img width="492" height="842" alt="Screenshot 2026-08-19 at 6 01 23 AM" src="https://github.com/user-attachments/assets/d6dd1fde-00ac-4dbf-863a-b79ac2521e6b" />
+<img width="491" height="842" alt="Screenshot 2026-08-19 at 6 01 01 AM" src="https://github.com/user-attachments/assets/7cf76f0f-54cc-465d-b676-75f0837eeebd" />
 
 # FoodDeliveryAppApp
 # 🍔 Food Delivery iOS App
