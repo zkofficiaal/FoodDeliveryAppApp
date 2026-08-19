@@ -20,4 +20,28 @@ final class CartViewModel: ObservableObject {
 
     // MARK: Computed Properties
     var total: Double { items.reduce(0) { $0 + $1.subtotal } }   // Total cart price
-    var itemCount: Int { items.reduce(0) { $0 +
+    var itemCount: Int { items.reduce(0) { $0 + $1.quantity } }  // Total item count
+
+    // MARK: Cart Operations
+    // Adds a food item to the cart or increments if already present
+    func add(_ food: FoodItem) {
+        if let idx = items.firstIndex(where: { $0.item.id == food.id }) {
+            items[idx].quantity += 1
+        } else {
+            items.append(CartItem(item: food, quantity: 1))
+        }
+    }
+
+    // Increments quantity of a given cart item
+    func increment(_ item: CartItem) {
+        guard let idx = items.firstIndex(of: item) else { return }
+        items[idx].quantity += 1
+    }
+
+    // Decrements quantity of a given cart item or removes if zero
+    func decrement(_ item: CartItem) {
+        guard let idx = items.firstIndex(of: item) else { return }
+        if items[idx].quantity > 1 { items[idx].quantity -= 1 }
+        else { items.remove(at: idx) }
+    }
+}
