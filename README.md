@@ -1,14 +1,13 @@
-<img width="491" height="842" alt="Screenshot 2026-08-19 at 5 59 59 AM" src="https://github.com/user-attachments/assets/cb8efe32-e69c-4966-afa3-7066c0697b9e" />
-<img width="492" height="842" alt="Screenshot 2026-08-19 at 6 01 23 AM" src="https://github.com/user-attachments/assets/d6dd1fde-00ac-4dbf-863a-b79ac2521e6b" /><img width="472" height="849" alt="Screenshot 2026-08-19 at 6 08 17 AM" src="https://github.com/user-attachments/assets/ee79d404-d59a-44a1-847a-65e7cc34b72e" />
-
-<img width="491" height="842" alt="Screenshot 2026-08-19 at 6 01 01 AM" src="https://github.com/user-attachments/assets/7cf76f0f-54cc-465d-b676-75f0837eeebd" />
-
+<img width="380" height="773" alt="Screenshot 2026-08-19 at 6 19 12 AM" src="https://github.com/user-attachments/assets/b7f58129-ba85-4efd-a7ef-f4063d51c799" />
+<img width="381" height="776" alt="Screenshot 2026-08-19 at 6 19 37 AM" src="https://github.com/user-attachments/assets/28f98fad-5f4c-493c-91b6-1a942ba575b9" />
+<img width="380" height="770" alt="Screenshot 2026-08-19 at 6 20 01 AM" src="https://github.com/user-attachments/assets/402772a1-cf31-4cfa-8d24-cdbad52c4944" />
+<img width="379" height="772" alt="Screenshot 2026-08-19 at 6 20 25 AM" src="https://github.com/user-attachments/assets/b811f772-5f1c-430a-b736-e6903ba108b6" />
 # FoodDeliveryAppApp
 # 🍔 Food Delivery iOS App
 
 A modern **Food Delivery iOS app built with SwiftUI**, featuring a clean teal `#00B894` design system and a complete ordering experience from onboarding to order confirmation.
 
-## ✨ Features
+## Features
 
 * Onboarding experience
 * Food categories & search
