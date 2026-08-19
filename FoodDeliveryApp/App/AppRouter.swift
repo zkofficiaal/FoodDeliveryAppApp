@@ -6,15 +6,25 @@
 //
 
 import SwiftUI
+import Combine
 
-struct AppRouter: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+// MARK: - AppScreen
+// Enum representing all possible screens in the app
+enum AppScreen: Equatable {
+    case onboarding, home
+    case productDetail(FoodItem)   // Screen for product details with a FoodItem
+    case cart, checkout, payment, tracking, confirmed
+}
+
+// MARK: - AppRouter
+// ObservableObject that manages navigation between screens
+final class AppRouter: ObservableObject {
+    // Published property to track the current screen
+    @Published var currentScreen: AppScreen = .onboarding
+
+    // MARK: Navigation Method
+    // Switches to a new screen with animation
+    func go(_ screen: AppScreen) {
+        withAnimation { currentScreen = screen }
     }
 }
-
-#Preview {
-    AppRouter()
-}
-
-
